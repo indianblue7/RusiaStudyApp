@@ -19,7 +19,7 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
       </main>
 
       <footer className="py-6 text-center text-gray-500 text-sm">
-        Made with Claude Code
+        Made by si's papa
       </footer>
     </div>
   );
