@@ -4,6 +4,7 @@
     "letter": "А",
     "lowercase": "а",
     "pronunciation": "a",
+    "koreanPronunciation": "아",
     "exampleWord": "Арбуз",
     "exampleTranslation": "Watermelon",
     "examplePronunciation": "arbuz"
@@ -13,6 +14,7 @@
     "letter": "Б",
     "lowercase": "б",
     "pronunciation": "b",
+    "koreanPronunciation": "브",
     "exampleWord": "Банан",
     "exampleTranslation": "Banana",
     "examplePronunciation": "banan"
@@ -22,6 +24,7 @@
     "letter": "В",
     "lowercase": "в",
     "pronunciation": "v",
+    "koreanPronunciation": "브",
     "exampleWord": "Вода",
     "exampleTranslation": "Water",
     "examplePronunciation": "voda"
@@ -31,6 +34,7 @@
     "letter": "Г",
     "lowercase": "г",
     "pronunciation": "g",
+    "koreanPronunciation": "그",
     "exampleWord": "Город",
     "exampleTranslation": "City",
     "examplePronunciation": "gorod"
@@ -40,6 +44,7 @@
     "letter": "Д",
     "lowercase": "д",
     "pronunciation": "d",
+    "koreanPronunciation": "드",
     "exampleWord": "Дом",
     "exampleTranslation": "House",
     "examplePronunciation": "dom"
@@ -49,6 +54,7 @@
     "letter": "Е",
     "lowercase": "е",
     "pronunciation": "ye",
+    "koreanPronunciation": "예",
     "exampleWord": "Ель",
     "exampleTranslation": "Fir tree",
     "examplePronunciation": "yel"
@@ -58,6 +64,7 @@
     "letter": "Ё",
     "lowercase": "ё",
     "pronunciation": "yo",
+    "koreanPronunciation": "요",
     "exampleWord": "Ёлка",
     "exampleTranslation": "Christmas tree",
     "examplePronunciation": "yolka"
@@ -67,6 +74,7 @@
     "letter": "Ж",
     "lowercase": "ж",
     "pronunciation": "zh",
+    "koreanPronunciation": "주",
     "exampleWord": "Жираф",
     "exampleTranslation": "Giraffe",
     "examplePronunciation": "zhiraf"
@@ -76,6 +84,7 @@
     "letter": "З",
     "lowercase": "з",
     "pronunciation": "z",
+    "koreanPronunciation": "즈",
     "exampleWord": "Зима",
     "exampleTranslation": "Winter",
     "examplePronunciation": "zima"
@@ -85,6 +94,7 @@
     "letter": "И",
     "lowercase": "и",
     "pronunciation": "i",
+    "koreanPronunciation": "이",
     "exampleWord": "Игра",
     "exampleTranslation": "Game",
     "examplePronunciation": "igra"
@@ -94,6 +104,7 @@
     "letter": "Й",
     "lowercase": "й",
     "pronunciation": "y",
+    "koreanPronunciation": "이",
     "exampleWord": "Йогурт",
     "exampleTranslation": "Yogurt",
     "examplePronunciation": "yogurt"
@@ -103,6 +114,7 @@
     "letter": "К",
     "lowercase": "к",
     "pronunciation": "k",
+    "koreanPronunciation": "크",
     "exampleWord": "Кот",
     "exampleTranslation": "Cat",
     "examplePronunciation": "kot"
@@ -112,6 +124,7 @@
     "letter": "Л",
     "lowercase": "л",
     "pronunciation": "l",
+    "koreanPronunciation": "를",
     "exampleWord": "Луна",
     "exampleTranslation": "Moon",
     "examplePronunciation": "luna"
@@ -121,6 +134,7 @@
     "letter": "М",
     "lowercase": "м",
     "pronunciation": "m",
+    "koreanPronunciation": "므",
     "exampleWord": "Мама",
     "exampleTranslation": "Mom",
     "examplePronunciation": "mama"
@@ -130,6 +144,7 @@
     "letter": "Н",
     "lowercase": "н",
     "pronunciation": "n",
+    "koreanPronunciation": "느",
     "exampleWord": "Нос",
     "exampleTranslation": "Nose",
     "examplePronunciation": "nos"
@@ -139,6 +154,7 @@
     "letter": "О",
     "lowercase": "о",
     "pronunciation": "o",
+    "koreanPronunciation": "오",
     "exampleWord": "Окно",
     "exampleTranslation": "Window",
     "examplePronunciation": "okno"
@@ -148,6 +164,7 @@
     "letter": "П",
     "lowercase": "п",
     "pronunciation": "p",
+    "koreanPronunciation": "프",
     "exampleWord": "Папа",
     "exampleTranslation": "Dad",
     "examplePronunciation": "papa"
@@ -157,6 +174,7 @@
     "letter": "Р",
     "lowercase": "р",
     "pronunciation": "r",
+    "koreanPronunciation": "르",
     "exampleWord": "Рука",
     "exampleTranslation": "Hand",
     "examplePronunciation": "ruka"
@@ -166,6 +184,7 @@
     "letter": "С",
     "lowercase": "с",
     "pronunciation": "s",
+    "koreanPronunciation": "스",
     "exampleWord": "Солнце",
     "exampleTranslation": "Sun",
     "examplePronunciation": "solntse"
@@ -175,6 +194,7 @@
     "letter": "Т",
     "lowercase": "т",
     "pronunciation": "t",
+    "koreanPronunciation": "트",
     "exampleWord": "Тигр",
     "exampleTranslation": "Tiger",
     "examplePronunciation": "tigr"
@@ -184,6 +204,7 @@
     "letter": "У",
     "lowercase": "у",
     "pronunciation": "u",
+    "koreanPronunciation": "우",
     "exampleWord": "Утро",
     "exampleTranslation": "Morning",
     "examplePronunciation": "utro"
@@ -193,6 +214,7 @@
     "letter": "Ф",
     "lowercase": "ф",
     "pronunciation": "f",
+    "koreanPronunciation": "프",
     "exampleWord": "Флаг",
     "exampleTranslation": "Flag",
     "examplePronunciation": "flag"
@@ -202,6 +224,7 @@
     "letter": "Х",
     "lowercase": "х",
     "pronunciation": "kh",
+    "koreanPronunciation": "흐",
     "exampleWord": "Хлеб",
     "exampleTranslation": "Bread",
     "examplePronunciation": "khleb"
@@ -211,6 +234,7 @@
     "letter": "Ц",
     "lowercase": "ц",
     "pronunciation": "ts",
+    "koreanPronunciation": "츠",
     "exampleWord": "Цветок",
     "exampleTranslation": "Flower",
     "examplePronunciation": "tsvetok"
@@ -220,6 +244,7 @@
     "letter": "Ч",
     "lowercase": "ч",
     "pronunciation": "ch",
+    "koreanPronunciation": "치",
     "exampleWord": "Час",
     "exampleTranslation": "Hour",
     "examplePronunciation": "chas"
@@ -229,6 +254,7 @@
     "letter": "Ш",
     "lowercase": "ш",
     "pronunciation": "sh",
+    "koreanPronunciation": "시",
     "exampleWord": "Школа",
     "exampleTranslation": "School",
     "examplePronunciation": "shkola"
@@ -238,6 +264,7 @@
     "letter": "Щ",
     "lowercase": "щ",
     "pronunciation": "shch",
+    "koreanPronunciation": "시치",
     "exampleWord": "Щука",
     "exampleTranslation": "Pike (fish)",
     "examplePronunciation": "shchuka"
@@ -247,6 +274,7 @@
     "letter": "Ъ",
     "lowercase": "ъ",
     "pronunciation": "hard sign",
+    "koreanPronunciation": "경음",
     "exampleWord": "Объект",
     "exampleTranslation": "Object",
     "examplePronunciation": "obyekt"
@@ -256,6 +284,7 @@
     "letter": "Ы",
     "lowercase": "ы",
     "pronunciation": "y",
+    "koreanPronunciation": "으이",
     "exampleWord": "Сыр",
     "exampleTranslation": "Cheese",
     "examplePronunciation": "syr"
@@ -265,6 +294,7 @@
     "letter": "Ь",
     "lowercase": "ь",
     "pronunciation": "soft sign",
+    "koreanPronunciation": "연음",
     "exampleWord": "Конь",
     "exampleTranslation": "Horse",
     "examplePronunciation": "kon"
@@ -274,6 +304,7 @@
     "letter": "Э",
     "lowercase": "э",
     "pronunciation": "e",
+    "koreanPronunciation": "에",
     "exampleWord": "Экран",
     "exampleTranslation": "Screen",
     "examplePronunciation": "ekran"
@@ -283,6 +314,7 @@
     "letter": "Ю",
     "lowercase": "ю",
     "pronunciation": "yu",
+    "koreanPronunciation": "유",
     "exampleWord": "Юг",
     "exampleTranslation": "South",
     "examplePronunciation": "yug"
@@ -292,6 +324,7 @@
     "letter": "Я",
     "lowercase": "я",
     "pronunciation": "ya",
+    "koreanPronunciation": "야",
     "exampleWord": "Яблоко",
     "exampleTranslation": "Apple",
     "examplePronunciation": "yabloko"

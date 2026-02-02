@@ -3,6 +3,7 @@ export interface Letter {
   letter: string;
   lowercase: string;
   pronunciation: string;
+  koreanPronunciation: string;
   exampleWord: string;
   exampleTranslation: string;
   examplePronunciation: string;
