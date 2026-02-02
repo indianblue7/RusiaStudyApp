@@ -1,8 +1,9 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { type Question } from '@/application/utilities/quizGenerator';
+import { useQuizSound } from '@/application/hooks/useQuizSound';
 
 interface QuizQuestionProps {
   question: Question;
@@ -17,6 +18,19 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
   showFeedback,
   onSelectAnswer,
 }) => {
+  const { playCorrectSound, playWrongSound } = useQuizSound();
+
+  // 피드백 표시 시 소리 재생
+  useEffect(() => {
+    if (showFeedback && selectedAnswer) {
+      const isCorrect = selectedAnswer === question.correctAnswer;
+      if (isCorrect) {
+        playCorrectSound();
+      } else {
+        playWrongSound();
+      }
+    }
+  }, [showFeedback, selectedAnswer, question.correctAnswer, playCorrectSound, playWrongSound]);
   return (
     <div className="flex flex-col items-center gap-8 w-full max-w-2xl">
       {/* Letter Display */}
