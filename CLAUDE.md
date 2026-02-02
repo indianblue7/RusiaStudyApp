@@ -1,80 +1,51 @@
-# Russian Alphabet Learning App - Development Workflow
+# Russian Alphabet Learning App
 
-## Package Management
-- **Always use `npm`** (detected: package-lock.json)
-- Never switch to other package managers
+## Package & Commands
+- **Always use `npm`**
+- Dev: `npm run dev` | Build: `npm run build` | Lint: `npm run lint`
+- Typecheck: `npx tsc --noEmit`
 
-## Development Order
-1. Make changes
-2. Typecheck: `npx tsc --noEmit`
-3. Test: (Add tests as needed)
-4. Lint: `npm run lint`
-5. Build: `npm run build`
+## Architecture
+Clean Architecture + Atomic Design:
+- `domain/` - Pure business entities (no dependencies)
+- `application/` - Use cases, Zustand stores
+- `infrastructure/` - Data access, repositories
+- `components/` - atoms → molecules → organisms → templates
+- `app/` - Next.js pages
 
-## Coding Conventions
-
-### TypeScript
+## TypeScript Rules
 - Prefer `type` over `interface`
-- **NEVER use `enum`** → Use string literal unions instead
-- Use Zustand for state management (already configured)
+- **NEVER use `enum`** → Use `type Status = 'active' | 'inactive'`
+- No `any` type
+- Use Zustand for state
 
-Example:
-```typescript
-// ❌ Bad
-enum Status { Active, Inactive }
+## Component Rules
+- Interactive components need `'use client'`
+- Business logic stays in `domain/` or `application/`
+- Data fetching in `infrastructure/` repositories
+- Tailwind CSS only (no inline styles)
+- Gradients: `from-blue-* to-purple-*`
+- Animations: Framer Motion
 
-// ✅ Good
-type Status = 'active' | 'inactive';
-```
+## Workflow (2026 Best Practice)
+**Plan First, Code Second** - Use Plan Mode for complex tasks:
+1. `/plan` to enter plan mode
+2. Explore files and analyze requirements
+3. Write implementation plan
+4. Get approval, then implement
 
-### Architecture
-This project follows **Clean Architecture** with **Atomic Design**:
+Prevents solving the wrong problem.
 
-```
-├── domain/               # Business entities (pure logic, no dependencies)
-│   └── entities/         # Domain models (Letter.ts)
-├── application/          # Application logic (use cases, stores)
-│   └── stores/           # Zustand state management
-├── infrastructure/       # External implementations
-│   └── data/             # Data repositories, API clients
-├── components/           # Atomic Design UI components
-│   ├── atoms/            # Basic elements (Button, ProgressBar)
-│   ├── molecules/        # Simple combinations (FlashCard, Navigation)
-│   ├── organisms/        # Complex sections (CardDisplay)
-│   └── templates/        # Page layouts (MainLayout)
-├── app/                  # Next.js App Router pages
-└── mocks/                # Mock data for development
-```
+## Prohibited
+- ❌ `console.log` in production
+- ❌ `any` type
+- ❌ Inline styles
+- ❌ Business logic in UI components
+- ❌ Direct API calls in components
 
-### Component Rules
-- All UI components go in `components/` with Atomic Design structure
-- Use `'use client'` directive for interactive components
-- Keep business logic in `domain/` and `application/`
-- Data fetching in `infrastructure/`
+## Git
+Clear commit messages + "Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>"
 
-### Styling
-- Use Tailwind CSS utility classes
-- Follow gradient design system: `from-blue-* to-purple-*`
-- Use Framer Motion for animations
-
-## Prohibited Practices
-- ❌ No `console.log` in production code (use proper logging if needed)
-- ❌ No `any` type
-- ❌ No inline styles (use Tailwind classes)
-- ❌ Don't mix business logic with UI components
-- ❌ Don't access external APIs directly in components (use repositories)
-
-## Git Workflow
-- Write clear commit messages
-- Always include "Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>"
-- Test before committing
-
-## Testing (To be added)
-- Add unit tests for domain entities
-- Add integration tests for repositories
-- Add component tests for complex UI
-
-## Performance
-- Use Next.js Image component for images
-- Lazy load components when appropriate
-- Optimize animations with Framer Motion's `layoutId`
+## Context Optimization (2026)
+This CLAUDE.md is intentionally concise to preserve context window.
+Details → Skills: russian-alphabet-architecture, russian-alphabet-testing, russian-alphabet-animations, russian-alphabet-data
