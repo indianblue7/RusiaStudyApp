@@ -3,6 +3,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Letter } from '@/domain/entities/Letter';
+import { AudioButton } from '@/components/atoms/AudioButton';
+import { useAudio } from '@/application/hooks/useAudio';
 
 interface FlashCardProps {
   letter: Letter;
@@ -15,6 +17,16 @@ export const FlashCard: React.FC<FlashCardProps> = ({
   isFlipped,
   onFlip,
 }) => {
+  const { speak, isSpeaking } = useAudio({ lang: 'ru-RU', rate: 0.8 });
+
+  const handlePlayLetter = () => {
+    speak(letter.letter);
+  };
+
+  const handlePlayWord = () => {
+    speak(letter.exampleWord);
+  };
+
   return (
     <div className="perspective-1000 w-full max-w-md h-96">
       <motion.div
@@ -35,6 +47,9 @@ export const FlashCard: React.FC<FlashCardProps> = ({
           <div className="mt-6 text-xl bg-white/20 px-6 py-2 rounded-full">
             [{letter.pronunciation}]
           </div>
+          <div className="mt-4">
+            <AudioButton onClick={handlePlayLetter} isPlaying={isSpeaking} />
+          </div>
         </div>
 
         {/* Back Side */}
@@ -45,6 +60,9 @@ export const FlashCard: React.FC<FlashCardProps> = ({
           <div className="text-5xl font-bold mb-4">{letter.exampleWord}</div>
           <div className="text-2xl font-light mb-2">
             [{letter.examplePronunciation}]
+          </div>
+          <div className="mt-4">
+            <AudioButton onClick={handlePlayWord} isPlaying={isSpeaking} size="lg" />
           </div>
           <div className="mt-4 text-xl">{letter.exampleTranslation}</div>
           <div className="mt-8 text-6xl opacity-20">{letter.letter}</div>
