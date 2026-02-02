@@ -14,7 +14,7 @@
     "letter": "Б",
     "lowercase": "б",
     "pronunciation": "b",
-    "koreanPronunciation": "브",
+    "koreanPronunciation": "베",
     "exampleWord": "Банан",
     "exampleTranslation": "Banana",
     "examplePronunciation": "banan"
@@ -24,7 +24,7 @@
     "letter": "В",
     "lowercase": "в",
     "pronunciation": "v",
-    "koreanPronunciation": "브",
+    "koreanPronunciation": "붸",
     "exampleWord": "Вода",
     "exampleTranslation": "Water",
     "examplePronunciation": "voda"
@@ -34,7 +34,7 @@
     "letter": "Г",
     "lowercase": "г",
     "pronunciation": "g",
-    "koreanPronunciation": "그",
+    "koreanPronunciation": "게",
     "exampleWord": "Город",
     "exampleTranslation": "City",
     "examplePronunciation": "gorod"
@@ -44,7 +44,7 @@
     "letter": "Д",
     "lowercase": "д",
     "pronunciation": "d",
-    "koreanPronunciation": "드",
+    "koreanPronunciation": "데",
     "exampleWord": "Дом",
     "exampleTranslation": "House",
     "examplePronunciation": "dom"
@@ -74,7 +74,7 @@
     "letter": "Ж",
     "lowercase": "ж",
     "pronunciation": "zh",
-    "koreanPronunciation": "주",
+    "koreanPronunciation": "줴",
     "exampleWord": "Жираф",
     "exampleTranslation": "Giraffe",
     "examplePronunciation": "zhiraf"
@@ -84,7 +84,7 @@
     "letter": "З",
     "lowercase": "з",
     "pronunciation": "z",
-    "koreanPronunciation": "즈",
+    "koreanPronunciation": "제",
     "exampleWord": "Зима",
     "exampleTranslation": "Winter",
     "examplePronunciation": "zima"
@@ -104,7 +104,7 @@
     "letter": "Й",
     "lowercase": "й",
     "pronunciation": "y",
-    "koreanPronunciation": "이",
+    "koreanPronunciation": "이 끄라뜨꼬예",
     "exampleWord": "Йогурт",
     "exampleTranslation": "Yogurt",
     "examplePronunciation": "yogurt"
@@ -114,7 +114,7 @@
     "letter": "К",
     "lowercase": "к",
     "pronunciation": "k",
-    "koreanPronunciation": "크",
+    "koreanPronunciation": "카",
     "exampleWord": "Кот",
     "exampleTranslation": "Cat",
     "examplePronunciation": "kot"
@@ -124,7 +124,7 @@
     "letter": "Л",
     "lowercase": "л",
     "pronunciation": "l",
-    "koreanPronunciation": "를",
+    "koreanPronunciation": "엘",
     "exampleWord": "Луна",
     "exampleTranslation": "Moon",
     "examplePronunciation": "luna"
@@ -134,7 +134,7 @@
     "letter": "М",
     "lowercase": "м",
     "pronunciation": "m",
-    "koreanPronunciation": "므",
+    "koreanPronunciation": "엠",
     "exampleWord": "Мама",
     "exampleTranslation": "Mom",
     "examplePronunciation": "mama"
@@ -144,7 +144,7 @@
     "letter": "Н",
     "lowercase": "н",
     "pronunciation": "n",
-    "koreanPronunciation": "느",
+    "koreanPronunciation": "엔",
     "exampleWord": "Нос",
     "exampleTranslation": "Nose",
     "examplePronunciation": "nos"
@@ -164,7 +164,7 @@
     "letter": "П",
     "lowercase": "п",
     "pronunciation": "p",
-    "koreanPronunciation": "프",
+    "koreanPronunciation": "페",
     "exampleWord": "Папа",
     "exampleTranslation": "Dad",
     "examplePronunciation": "papa"
@@ -174,7 +174,7 @@
     "letter": "Р",
     "lowercase": "р",
     "pronunciation": "r",
-    "koreanPronunciation": "르",
+    "koreanPronunciation": "에르",
     "exampleWord": "Рука",
     "exampleTranslation": "Hand",
     "examplePronunciation": "ruka"
@@ -184,7 +184,7 @@
     "letter": "С",
     "lowercase": "с",
     "pronunciation": "s",
-    "koreanPronunciation": "스",
+    "koreanPronunciation": "에스",
     "exampleWord": "Солнце",
     "exampleTranslation": "Sun",
     "examplePronunciation": "solntse"
@@ -194,7 +194,7 @@
     "letter": "Т",
     "lowercase": "т",
     "pronunciation": "t",
-    "koreanPronunciation": "트",
+    "koreanPronunciation": "테",
     "exampleWord": "Тигр",
     "exampleTranslation": "Tiger",
     "examplePronunciation": "tigr"
@@ -214,7 +214,7 @@
     "letter": "Ф",
     "lowercase": "ф",
     "pronunciation": "f",
-    "koreanPronunciation": "프",
+    "koreanPronunciation": "에프",
     "exampleWord": "Флаг",
     "exampleTranslation": "Flag",
     "examplePronunciation": "flag"
@@ -224,7 +224,7 @@
     "letter": "Х",
     "lowercase": "х",
     "pronunciation": "kh",
-    "koreanPronunciation": "흐",
+    "koreanPronunciation": "하",
     "exampleWord": "Хлеб",
     "exampleTranslation": "Bread",
     "examplePronunciation": "khleb"
@@ -234,7 +234,7 @@
     "letter": "Ц",
     "lowercase": "ц",
     "pronunciation": "ts",
-    "koreanPronunciation": "츠",
+    "koreanPronunciation": "쩨",
     "exampleWord": "Цветок",
     "exampleTranslation": "Flower",
     "examplePronunciation": "tsvetok"
@@ -244,7 +244,7 @@
     "letter": "Ч",
     "lowercase": "ч",
     "pronunciation": "ch",
-    "koreanPronunciation": "치",
+    "koreanPronunciation": "체",
     "exampleWord": "Час",
     "exampleTranslation": "Hour",
     "examplePronunciation": "chas"
@@ -254,7 +254,7 @@
     "letter": "Ш",
     "lowercase": "ш",
     "pronunciation": "sh",
-    "koreanPronunciation": "시",
+    "koreanPronunciation": "샤",
     "exampleWord": "Школа",
     "exampleTranslation": "School",
     "examplePronunciation": "shkola"
@@ -264,7 +264,7 @@
     "letter": "Щ",
     "lowercase": "щ",
     "pronunciation": "shch",
-    "koreanPronunciation": "시치",
+    "koreanPronunciation": "시챠",
     "exampleWord": "Щука",
     "exampleTranslation": "Pike (fish)",
     "examplePronunciation": "shchuka"
@@ -274,7 +274,7 @@
     "letter": "Ъ",
     "lowercase": "ъ",
     "pronunciation": "hard sign",
-    "koreanPronunciation": "경음",
+    "koreanPronunciation": "뜨뵤르디 즈낙",
     "exampleWord": "Объект",
     "exampleTranslation": "Object",
     "examplePronunciation": "obyekt"
@@ -284,7 +284,7 @@
     "letter": "Ы",
     "lowercase": "ы",
     "pronunciation": "y",
-    "koreanPronunciation": "으이",
+    "koreanPronunciation": "의",
     "exampleWord": "Сыр",
     "exampleTranslation": "Cheese",
     "examplePronunciation": "syr"
@@ -294,7 +294,7 @@
     "letter": "Ь",
     "lowercase": "ь",
     "pronunciation": "soft sign",
-    "koreanPronunciation": "연음",
+    "koreanPronunciation": "먀흐끼 즈낙",
     "exampleWord": "Конь",
     "exampleTranslation": "Horse",
     "examplePronunciation": "kon"
