@@ -1,0 +1,299 @@
+[
+  {
+    "id": 1,
+    "letter": "А",
+    "lowercase": "а",
+    "pronunciation": "a",
+    "exampleWord": "Арбуз",
+    "exampleTranslation": "Watermelon",
+    "examplePronunciation": "arbuz"
+  },
+  {
+    "id": 2,
+    "letter": "Б",
+    "lowercase": "б",
+    "pronunciation": "b",
+    "exampleWord": "Банан",
+    "exampleTranslation": "Banana",
+    "examplePronunciation": "banan"
+  },
+  {
+    "id": 3,
+    "letter": "В",
+    "lowercase": "в",
+    "pronunciation": "v",
+    "exampleWord": "Вода",
+    "exampleTranslation": "Water",
+    "examplePronunciation": "voda"
+  },
+  {
+    "id": 4,
+    "letter": "Г",
+    "lowercase": "г",
+    "pronunciation": "g",
+    "exampleWord": "Город",
+    "exampleTranslation": "City",
+    "examplePronunciation": "gorod"
+  },
+  {
+    "id": 5,
+    "letter": "Д",
+    "lowercase": "д",
+    "pronunciation": "d",
+    "exampleWord": "Дом",
+    "exampleTranslation": "House",
+    "examplePronunciation": "dom"
+  },
+  {
+    "id": 6,
+    "letter": "Е",
+    "lowercase": "е",
+    "pronunciation": "ye",
+    "exampleWord": "Ель",
+    "exampleTranslation": "Fir tree",
+    "examplePronunciation": "yel"
+  },
+  {
+    "id": 7,
+    "letter": "Ё",
+    "lowercase": "ё",
+    "pronunciation": "yo",
+    "exampleWord": "Ёлка",
+    "exampleTranslation": "Christmas tree",
+    "examplePronunciation": "yolka"
+  },
+  {
+    "id": 8,
+    "letter": "Ж",
+    "lowercase": "ж",
+    "pronunciation": "zh",
+    "exampleWord": "Жираф",
+    "exampleTranslation": "Giraffe",
+    "examplePronunciation": "zhiraf"
+  },
+  {
+    "id": 9,
+    "letter": "З",
+    "lowercase": "з",
+    "pronunciation": "z",
+    "exampleWord": "Зима",
+    "exampleTranslation": "Winter",
+    "examplePronunciation": "zima"
+  },
+  {
+    "id": 10,
+    "letter": "И",
+    "lowercase": "и",
+    "pronunciation": "i",
+    "exampleWord": "Игра",
+    "exampleTranslation": "Game",
+    "examplePronunciation": "igra"
+  },
+  {
+    "id": 11,
+    "letter": "Й",
+    "lowercase": "й",
+    "pronunciation": "y",
+    "exampleWord": "Йогурт",
+    "exampleTranslation": "Yogurt",
+    "examplePronunciation": "yogurt"
+  },
+  {
+    "id": 12,
+    "letter": "К",
+    "lowercase": "к",
+    "pronunciation": "k",
+    "exampleWord": "Кот",
+    "exampleTranslation": "Cat",
+    "examplePronunciation": "kot"
+  },
+  {
+    "id": 13,
+    "letter": "Л",
+    "lowercase": "л",
+    "pronunciation": "l",
+    "exampleWord": "Луна",
+    "exampleTranslation": "Moon",
+    "examplePronunciation": "luna"
+  },
+  {
+    "id": 14,
+    "letter": "М",
+    "lowercase": "м",
+    "pronunciation": "m",
+    "exampleWord": "Мама",
+    "exampleTranslation": "Mom",
+    "examplePronunciation": "mama"
+  },
+  {
+    "id": 15,
+    "letter": "Н",
+    "lowercase": "н",
+    "pronunciation": "n",
+    "exampleWord": "Нос",
+    "exampleTranslation": "Nose",
+    "examplePronunciation": "nos"
+  },
+  {
+    "id": 16,
+    "letter": "О",
+    "lowercase": "о",
+    "pronunciation": "o",
+    "exampleWord": "Окно",
+    "exampleTranslation": "Window",
+    "examplePronunciation": "okno"
+  },
+  {
+    "id": 17,
+    "letter": "П",
+    "lowercase": "п",
+    "pronunciation": "p",
+    "exampleWord": "Папа",
+    "exampleTranslation": "Dad",
+    "examplePronunciation": "papa"
+  },
+  {
+    "id": 18,
+    "letter": "Р",
+    "lowercase": "р",
+    "pronunciation": "r",
+    "exampleWord": "Рука",
+    "exampleTranslation": "Hand",
+    "examplePronunciation": "ruka"
+  },
+  {
+    "id": 19,
+    "letter": "С",
+    "lowercase": "с",
+    "pronunciation": "s",
+    "exampleWord": "Солнце",
+    "exampleTranslation": "Sun",
+    "examplePronunciation": "solntse"
+  },
+  {
+    "id": 20,
+    "letter": "Т",
+    "lowercase": "т",
+    "pronunciation": "t",
+    "exampleWord": "Тигр",
+    "exampleTranslation": "Tiger",
+    "examplePronunciation": "tigr"
+  },
+  {
+    "id": 21,
+    "letter": "У",
+    "lowercase": "у",
+    "pronunciation": "u",
+    "exampleWord": "Утро",
+    "exampleTranslation": "Morning",
+    "examplePronunciation": "utro"
+  },
+  {
+    "id": 22,
+    "letter": "Ф",
+    "lowercase": "ф",
+    "pronunciation": "f",
+    "exampleWord": "Флаг",
+    "exampleTranslation": "Flag",
+    "examplePronunciation": "flag"
+  },
+  {
+    "id": 23,
+    "letter": "Х",
+    "lowercase": "х",
+    "pronunciation": "kh",
+    "exampleWord": "Хлеб",
+    "exampleTranslation": "Bread",
+    "examplePronunciation": "khleb"
+  },
+  {
+    "id": 24,
+    "letter": "Ц",
+    "lowercase": "ц",
+    "pronunciation": "ts",
+    "exampleWord": "Цветок",
+    "exampleTranslation": "Flower",
+    "examplePronunciation": "tsvetok"
+  },
+  {
+    "id": 25,
+    "letter": "Ч",
+    "lowercase": "ч",
+    "pronunciation": "ch",
+    "exampleWord": "Час",
+    "exampleTranslation": "Hour",
+    "examplePronunciation": "chas"
+  },
+  {
+    "id": 26,
+    "letter": "Ш",
+    "lowercase": "ш",
+    "pronunciation": "sh",
+    "exampleWord": "Школа",
+    "exampleTranslation": "School",
+    "examplePronunciation": "shkola"
+  },
+  {
+    "id": 27,
+    "letter": "Щ",
+    "lowercase": "щ",
+    "pronunciation": "shch",
+    "exampleWord": "Щука",
+    "exampleTranslation": "Pike (fish)",
+    "examplePronunciation": "shchuka"
+  },
+  {
+    "id": 28,
+    "letter": "Ъ",
+    "lowercase": "ъ",
+    "pronunciation": "hard sign",
+    "exampleWord": "Объект",
+    "exampleTranslation": "Object",
+    "examplePronunciation": "obyekt"
+  },
+  {
+    "id": 29,
+    "letter": "Ы",
+    "lowercase": "ы",
+    "pronunciation": "y",
+    "exampleWord": "Сыр",
+    "exampleTranslation": "Cheese",
+    "examplePronunciation": "syr"
+  },
+  {
+    "id": 30,
+    "letter": "Ь",
+    "lowercase": "ь",
+    "pronunciation": "soft sign",
+    "exampleWord": "Конь",
+    "exampleTranslation": "Horse",
+    "examplePronunciation": "kon"
+  },
+  {
+    "id": 31,
+    "letter": "Э",
+    "lowercase": "э",
+    "pronunciation": "e",
+    "exampleWord": "Экран",
+    "exampleTranslation": "Screen",
+    "examplePronunciation": "ekran"
+  },
+  {
+    "id": 32,
+    "letter": "Ю",
+    "lowercase": "ю",
+    "pronunciation": "yu",
+    "exampleWord": "Юг",
+    "exampleTranslation": "South",
+    "examplePronunciation": "yug"
+  },
+  {
+    "id": 33,
+    "letter": "Я",
+    "lowercase": "я",
+    "pronunciation": "ya",
+    "exampleWord": "Яблоко",
+    "exampleTranslation": "Apple",
+    "examplePronunciation": "yabloko"
+  }
+]
